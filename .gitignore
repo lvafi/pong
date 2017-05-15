@@ -1,7 +1,7 @@
-# Editor
-DS_Store
-.vscode
+  # Editor
+  DS_Store
+  .vscode
 
-# NPM
-node_modules
-npm-debug.log
+  # NPM
+  node_modules
+  npm-debug.log

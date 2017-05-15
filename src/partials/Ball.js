@@ -1,6 +1,6 @@
-import { SVG_NS } from '../settings';
+  import { SVG_NS } from '../settings';
 
-export default class Ball {
+  export default class Ball {
   constructor(radius, boardWidth, boardHeight) {
     this.radius = radius;
     this.boardWidth = boardWidth;
@@ -68,11 +68,11 @@ export default class Ball {
         && this.y <= bottomY // &&ball Y<= paddle bottom
       ){
         this.vx = -this.vx;
-         this.ping.play();
+          this.ping.play();
       }
     }
   }
-  
+
   goal(player) {
     player.score++;
     this.reset();
@@ -93,11 +93,11 @@ export default class Ball {
       circle.setAttributeNS(null, 'r', this.radius),
       circle.setAttributeNS(null, 'fill', 'white'),
 
-      svg.appendChild(circle);
-      //Detect goal
-      const rightGoal = this.x + this.radius >= this.boardWidth;
-      const leftGoal = this.x - this.radius <=0;
-      
+        svg.appendChild(circle);
+        //Detect goal
+        const rightGoal = this.x + this.radius >= this.boardWidth;
+        const leftGoal = this.x - this.radius <=0;
+        
       if ( rightGoal ) {
         this.goal(player1);
         this.direction = 1;
@@ -110,4 +110,4 @@ export default class Ball {
       }
   }
 
-}
+  }
