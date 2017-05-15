@@ -91,7 +91,7 @@
     circle.setAttributeNS(null, 'cx', this.x),
       circle.setAttributeNS(null, 'cy', this.y),
       circle.setAttributeNS(null, 'r', this.radius),
-      circle.setAttributeNS(null, 'fill', 'white'),
+      circle.setAttributeNS(null, 'fill', 'red'),
 
         svg.appendChild(circle);
         //Detect goal
