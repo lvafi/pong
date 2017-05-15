@@ -101,12 +101,10 @@
       if ( rightGoal ) {
         this.goal(player1);
         this.direction = 1;
-        console.log('hitright');
 
       } else if( leftGoal ) {
         this.goal(player2);
         this.direction = -1;
-        console.log('hitleft');
       }
   }
 

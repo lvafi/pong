@@ -10,9 +10,9 @@ spaceBar: ' ', // we'll use this later...
 };
 
 export const SCORE = {
-distance: 50,
-topDistance: 50,
-size: 30
+  distance: 50,
+  topDistance: 50,
+  size: 30
 }
 export const PADDLE = {
   width: 8,
